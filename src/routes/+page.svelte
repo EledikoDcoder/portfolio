@@ -58,7 +58,7 @@
            
             
            <div>
-                <ul id="element" class:show={displayElement} class:return={!displayElement}  class="flex flex-col text-center font-extralight h-full gap-[2rem] pt-[4rem] bg-teal-500 fixed top-[5rem] w-0 right-0  text-slate-700  lg:text-slate-700 lg:flex-row  lg:relative lg:pt-0 lg:top-0 lg:gap-[3rem] lg:items-center lg:bg-transparent lg:h-full ">
+                <ul id="element" class:show={displayElement} class:return={!displayElement}  class="flex flex-col text-center font-medium h-full gap-[2rem] pt-[4rem] bg-teal-500 fixed top-[5rem] w-0 right-0  text-slate-700  lg:text-slate-700 lg:flex-row  lg:relative lg:pt-0 lg:top-0 lg:gap-[3rem] lg:items-center lg:bg-transparent lg:h-full ">
                     <li class="after:bg-white lg:after:bg-cyan-500 after:w-0 after:left-0 after:h-[.1rem] after:flex after:hover:w-full transition-all after:delay-400 after:duration-300 after:hover:left-full"><a href="#slow">Home</a></li>
                     <li class="after:bg-white  lg:after:bg-cyan-500 after:w-0 after:left-0 after:h-[.15rem] after:flex after:hover:w-full transition-all after:delay-400 after:duration-300 after:hover:left-full"><a href="#about">About</a></li>
                     <li class="after:bg-white  lg:after:bg-cyan-500 after:w-0 after:left-0 after:h-[.15rem] after:flex after:hover:w-full transition-all after:delay-400 after:duration-300 after:hover:left-full"><a href="#experience">Experiecnce</a></li>
@@ -86,8 +86,8 @@
     
     
         <div class="social-media">
-            <ul class="fixed bottom-1 left-[4rem] right-[4rem] lg:left-[6rem] lg:right-[6rem] rounded-full text-[1.2rem] py-[0.7rem] flex justify-center items-center gap-[2rem] lg:gap-[4rem] lg:text-2xl text-white bg-gradient-to-r from-cyan-500 to-teal-500 z-40">
-                <li class="transition:all hover:scale-125 delay-450"><a  href="https://www.facebook.com/Faruq Elediko" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+            <ul class="fixed bottom-1 left-[2rem] right-[2rem] lg:left-[4rem] lg:right-[4rem] rounded-full text-[1.2rem] py-[0.7rem] flex justify-center items-center gap-[2rem] lg:gap-[4rem] lg:text-2xl text-white bg-gradient-to-r from-cyan-500 to-teal-500 z-40">
+                <li class="transition:all hover:scale-125 delay-450"><a href="" target="_blank"><i class='bx bxl-facebook'></i></a></li>
                 <li class="transition:all hover:scale-125 delay-450"><a href=""><i class='bx bxl-twitter' ></i></a></li>
                 <li class="transition:all hover:scale-125 delay-450"><a href=""><i class='bx bxl-instagram' ></i></a></li>
                 <li class="transition:all hover:scale-125 delay-450"><a href=""><i class='bx bxl-linkedin'></i></a></li>
@@ -109,7 +109,7 @@
     
     
                 <div class="btn-1 pt-[2rem] flex justify-center items-center gap-5 lg:justify-start">
-                    <a class=" text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-[1rem] py-[0.5rem] rounded-md -all hover:translate-y-[-.5rem] duration-400 delay-300 hover:from-teal-600 hover:to-cyan-600" href="">Resume</a>
+                    <a class=" text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-[1rem] py-[0.5rem] rounded-md -all hover:translate-y-[-.5rem] duration-400 delay-300 hover:from-teal-500 hover:to-cyan-500" href="">Resume</a>
                     <a class=" text-slate-700 px-[1rem] py-[0.5rem] border-[.1rem]  border-teal-500 rounded-md transition-all hover:translate-y-[-.5rem] duration-400 delay-300 " href="#contact">Let's talk</a>
                 </div>
             </div>
@@ -210,12 +210,12 @@
                 <img src="contact-img.png" alt="">
                 <p class=" font-serif">If you have questions or just want to get in touch,use the form below. I look forward to hear from you</p>
              </div>
-             <div class="flex flex-col bg-gradient-to-r from-cyan-500 to-teal-500 rounded-xl p-[3rem] gap-[1rem] mt-[2rem] md:p-[2rem] lg:w-[50%] lg:p-[3rem]">
+             <div class="flex flex-col bg-gradient-to-r from-cyan-500 to-teal-500 rounded-xl p-[2rem] gap-[1rem] mt-[2rem] md:p-[2rem] lg:w-[50%] lg:p-[3rem]">
                 <h3 class=" text-center text-lg font-semibold pb-[1rem]">Get in touch</h3>
-                <input type="text" placeholder="First name" class=" py-[.4rem]  px-[.9rem] placeholder:font-mono font-mono rounded-xl border-none outline-none text-slate-600">
-                <input type="text" placeholder="Surname" class=" py-[.4rem]  px-[.9rem] rounded-lg border-none outline-none font-mono placeholder:font-mono  text-slate-600">
-                <input type="email" placeholder="Your email" class=" py-[.4rem]  px-[.9rem] rounded-lg border-none outline-none placeholder:font-mono font-mono  text-slate-600">
-                <textarea cols="20" rows="6" placeholder="Your questions..." class=" py-[.4rem]  px-[.9rem] rounded-lg border-none outline-none placeholder:font-mono font-mono  text-slate-600"></textarea>
+                <input type="text" placeholder="First name" required class=" py-[.4rem]  px-[.9rem] placeholder:font-mono font-mono rounded-xl border-none outline-none text-slate-600">
+                <input type="text" placeholder="Surname" required class=" py-[.4rem]  px-[.9rem] rounded-lg border-none outline-none font-mono placeholder:font-mono  text-slate-600">
+                <input type="email" placeholder="Your email" required class=" py-[.4rem]  px-[.9rem] rounded-lg border-none outline-none placeholder:font-mono font-mono  text-slate-600">
+                <textarea cols="20" rows="5" placeholder="Your questions..." required class=" py-[.4rem]  px-[.9rem] rounded-lg border-none outline-none placeholder:font-mono font-mono  text-slate-600"></textarea>
                 <button class="text-lg px-[1rem] py-[.3rem] border-[.1rem] mx-[4rem]  rounded-md mt-[1rem] coutline-none transition-all hover:text-white delay-400 hover:-translate-y-2" type="submit"> Submit</button>
              </div>
         </div>
@@ -227,9 +227,8 @@
 
 
     <section>
-            <div class="  font-serif flex items-center justify-center py-[.5rem] text-lg text-cyan-900 border-t-cyan-900 border-b-teal-900 border-[.1rem] mb-[3.5rem] lg:mb-[4rem] ">
-                <small> Copyrigth &copy Designed and Built by Faruq Elediko.</small>
-                <i class="bx bxs-heart bx-tada"></i>
+            <div class=" px-[1rem] font-serif flex items-center justify-center py-[.5rem] text-lg text-cyan-900 border-t-cyan-900 border-b-teal-900 border-[.1rem] mb-[3.5rem] lg:mb-[4rem] ">
+                <small> Copyrigth &copy Designed and Built by Faruq Elediko.<i class="bx bxs-heart bx-tada"></i></small>
             </div>
     </section>
 </body>
@@ -271,13 +270,13 @@
                 width: 0;
             }
             100%{
-                width: 50%;
+                width: 60%;
             }
         }
     
     @keyframes return-element {
         0%{
-                width: 50%;
+                width: 60%;
             }
             100%{
                 width: 0;
