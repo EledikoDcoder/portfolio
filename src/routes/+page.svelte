@@ -17,8 +17,37 @@
 
 
 
+    import { onMount } from 'svelte';
 
+let message = '';
+let typedMessage = '';
 
+const typeSpeed = 200; // in milliseconds
+const originalMessage = 'Faruq Elediko';
+
+onMount(() => {
+  typeMessage(originalMessage);
+});
+
+function typeMessage(msg) {
+  if (!msg) return;
+
+  message = msg;
+  typedMessage = '';
+
+  let i = 0;
+  const intervalId = setInterval(() => {
+    typedMessage += message[i];
+    i++;
+
+    if (i >= message.length) {
+      clearInterval(intervalId);
+      setTimeout(() => {
+        typeMessage(msg); // retype after 5 seconds
+      }, 3000);
+    }
+  }, typeSpeed);
+}
 
 
 
@@ -102,7 +131,7 @@
     
             <div class="header-top md:pt-[6rem] lg:text-left lg:w-[50%]">
                 <span class="text-slate-700 text-lg font-serif">Hello, my name is</span>
-                <h1 class=" font-serif text-teal-500 font-extrabold text-[2rem] lg:text-5xl">Faruq Elediko </h1>
+                <h1 class=" font-serif text-teal-500 font-extrabold text-[2rem] lg:text-5xl">{typedMessage}</h1>
                 <p class="pt-[1rem] text-slate-700  font-serif lg:w-[90%]">
                     I am a skilled and motivated front-end developer who is committed to delivering top-quality
                     results, and am excited to contribute my skills and experience to new projects and teams.
@@ -185,7 +214,6 @@
        
         
     </section>
-
 
 
     <section id="contact" class=" px-[1rem] py-[5rem] text-slate-800">
