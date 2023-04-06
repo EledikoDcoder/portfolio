@@ -87,12 +87,12 @@ function typeMessage(msg) {
            
             
            <div>
-                <ul id="element" class:show={displayElement} class:return={!displayElement}  class="flex flex-col text-center font-medium h-full gap-[2rem] pt-[4rem] bg-teal-500 fixed top-[5rem] w-0 right-0  text-slate-700  lg:text-slate-700 lg:flex-row  lg:relative lg:pt-0 lg:top-0 lg:gap-[3rem] lg:items-center lg:bg-transparent lg:h-full ">
+                <ul id="element" class:show={displayElement} class:return={!displayElement}  class="flex flex-col text-center  font-medium h-full gap-[2rem] pt-[4rem] bg-teal-500 fixed top-[5rem] w-0 right-0  text-slate-700  lg:text-slate-700 lg:flex-row  lg:relative lg:pt-0 lg:top-0 lg:gap-[3rem] lg:items-center lg:bg-transparent lg:h-full ">
                     <li class="after:bg-white lg:after:bg-cyan-500 after:w-0 after:left-0 after:h-[.1rem] after:flex after:hover:w-full transition-all after:delay-400 after:duration-300 after:hover:left-full"><a href="#slow">Home</a></li>
                     <li class="after:bg-white  lg:after:bg-cyan-500 after:w-0 after:left-0 after:h-[.15rem] after:flex after:hover:w-full transition-all after:delay-400 after:duration-300 after:hover:left-full"><a href="#about">About</a></li>
                     <li class="after:bg-white  lg:after:bg-cyan-500 after:w-0 after:left-0 after:h-[.15rem] after:flex after:hover:w-full transition-all after:delay-400 after:duration-300 after:hover:left-full"><a href="#experience">Experiecnce</a></li>
                     <li class="after:bg-white  lg:after:bg-cyan-500 after:w-0 after:left-0 after:h-[.1rem] after:flex after:hover:w-full transition-all after:delay-400 after:duration-300 after:hover:left-full"><a href="#contact">Contact</a></li>
-                    <a class=" border-[.01rem] self-center border-white w-[8rem] text-white lg:bg-gradient-to-r from-cyan-500 to-teal-500 px-[1rem] py-[0.5rem] rounded-md -all hover:translate-y-[-.5rem] duration-400 delay-300 hover:from-teal-500 hover:to-cyan-500 lg:ml-[8rem]" download href="">Resume</a>
+                    <li><a class=" border-[.01rem]  border-white text-white lg:bg-gradient-to-r from-cyan-500 to-teal-500 px-[1rem] py-[0.5rem] rounded-md -all hover:translate-y-[-.5rem] duration-400 delay-300 hover:from-teal-500 hover:to-cyan-500 lg:ml-[8rem]" download href="">Resume</a></li>
                 </ul>
            </div>
     
@@ -117,11 +117,10 @@ function typeMessage(msg) {
     
         <div class="social-media">
             <ul class="fixed bottom-1 left-[2rem] right-[2rem] lg:left-[4rem] lg:right-[4rem] rounded-full text-[1.2rem] py-[0.7rem] flex justify-center items-center gap-[2rem] lg:gap-[4rem] lg:text-2xl text-white bg-gradient-to-r from-cyan-500 to-teal-500 z-40">
-                <li class="transition:all hover:scale-125 delay-450"><a href="" target="_blank"><i class='bx bxl-facebook'></i></a></li>
-                <li class="transition:all hover:scale-125 delay-450"><a href=""><i class='bx bxl-twitter' ></i></a></li>
-                <li class="transition:all hover:scale-125 delay-450"><a href=""><i class='bx bxl-instagram' ></i></a></li>
-                <li class="transition:all hover:scale-125 delay-450"><a href=""><i class='bx bxl-linkedin'></i></a></li>
-                <li class="transition:all hover:scale-125 delay-450"><a href=""><i class='bx bxl-github'></i></a></li>
+                <li class="transition:all hover:scale-125 delay-450"><a href="https://twitter.com/EledikoDcoder"target="_blank" rel="noopener noreferrer"><i class='bx bxl-twitter' ></i></a></li>
+                <li class="transition:all hover:scale-125 delay-450"><a href="https://www.instagram.com/eledikofaruq/"target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram' ></i></a></li>
+                <li class="transition:all hover:scale-125 delay-450"><a href="https://www.linkedin.com/in/Faruq Elediko/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a></li>
+                <li class="transition:all hover:scale-125 delay-450"><a href="https://github.com/EledikoDcoder" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a></li>
             </ul>
         </div>
     
@@ -167,7 +166,7 @@ function typeMessage(msg) {
            for your business growth make the it more & more interactive with web animations.A responsive
            design makes your website accessible to all users, regardless of their devices.
         </p>
-        <a class=" text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-[1rem] py-[0.5rem] hover:text-slate-700 rounded-md transition-all hover:bg-none duration-400 delay-300 border-[.1rem] border-cyan-600" href="#contact">Let's talk</a>
+        <a class=" text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-[1rem] py-[0.5rem] hover:text-slate-700 rounded-md transition-all hover:bg-none duration-400 delay-300 border-[.1rem] border-cyan-500" href="#contact">Let's talk</a>
     </section>
 
 
@@ -222,8 +221,10 @@ function typeMessage(msg) {
         <div class="flex flex-col items-center justify-center gap-[1rem] pb-[2rem] md:flex-row md:gap-[3rem]">
             <div class="flex items-center gap-[.5rem]">
                 <span class="text-green-500 text-2xl"><i class='bx bxl-whatsapp'></i></span>
-                <p class=" cursor-pointer">
-                    +2348068254048
+                <p class=" cursor-pointer flex items-center justify-center">
+                    <a href="https://wa.me/2348068254048"  target="_blank">2348068254048</a>
+                    <a class=" text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-[1rem] py-[0.5rem] hover:text-slate-700 rounded-md transition-all hover:bg-none duration-300 delay-300 border-[.1rem] ml-4 border-cyan-600" href="https://wa.me/2348068254048"  target="_blank">let's chat</a>
+                    
                 </p>
             </div>
             <div class="flex items-center gap-[.5rem]">
@@ -259,7 +260,7 @@ function typeMessage(msg) {
 
     <section>
             <div class=" px-[1rem] font-serif flex items-center justify-center py-[.5rem] text-lg text-cyan-900 border-t-cyan-900 border-b-teal-900 border-[.1rem] mb-[3.5rem] lg:mb-[4rem] ">
-                <small> Copyrigth &copy Designed and Built by Faruq Elediko.<i class="bx bxs-heart bx-tada"></i></small>
+                <small>Let's connect and create something great together.<i class="bx bxs-heart bx-tada"></i></small>
             </div>
     </section>
 </body>
