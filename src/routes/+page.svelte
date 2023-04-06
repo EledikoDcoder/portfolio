@@ -63,6 +63,7 @@
                     <li class="after:bg-white  lg:after:bg-cyan-500 after:w-0 after:left-0 after:h-[.15rem] after:flex after:hover:w-full transition-all after:delay-400 after:duration-300 after:hover:left-full"><a href="#about">About</a></li>
                     <li class="after:bg-white  lg:after:bg-cyan-500 after:w-0 after:left-0 after:h-[.15rem] after:flex after:hover:w-full transition-all after:delay-400 after:duration-300 after:hover:left-full"><a href="#experience">Experiecnce</a></li>
                     <li class="after:bg-white  lg:after:bg-cyan-500 after:w-0 after:left-0 after:h-[.1rem] after:flex after:hover:w-full transition-all after:delay-400 after:duration-300 after:hover:left-full"><a href="#contact">Contact</a></li>
+                    <a class=" border-[.01rem] self-center border-white w-[8rem] text-white lg:bg-gradient-to-r from-cyan-500 to-teal-500 px-[1rem] py-[0.5rem] rounded-md -all hover:translate-y-[-.5rem] duration-400 delay-300 hover:from-teal-500 hover:to-cyan-500 lg:ml-[8rem]" download href="">Resume</a>
                 </ul>
            </div>
     
@@ -109,7 +110,7 @@
     
     
                 <div class="btn-1 pt-[2rem] flex justify-center items-center gap-5 lg:justify-start">
-                    <a class=" text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-[1rem] py-[0.5rem] rounded-md -all hover:translate-y-[-.5rem] duration-400 delay-300 hover:from-teal-500 hover:to-cyan-500" href="">Resume</a>
+                    <a class=" text-white bg-gradient-to-r from-cyan-500 to-teal-500 px-[1rem] py-[0.5rem] rounded-md -all hover:translate-y-[-.5rem] duration-400 delay-300 hover:from-teal-500 hover:to-cyan-500" href="">My Resume</a>
                     <a class=" text-slate-700 px-[1rem] py-[0.5rem] border-[.1rem]  border-teal-500 rounded-md transition-all hover:translate-y-[-.5rem] duration-400 delay-300 " href="#contact">Let's talk</a>
                 </div>
             </div>
@@ -118,7 +119,7 @@
     
             
    
-            <div class="header-bottom pt-[7rem] md:w-[100%] lg:w-[50%]">
+            <div class="header-bottom lg:pt-[7rem] pt-[5rem] md:w-[100%] lg:w-[50%]">
                 <img src="/prog-r.png" alt="">
             </div>
            
@@ -143,16 +144,6 @@
 
 
     <section id="experience" class=" px-[1rem] py-[7rem] md:px-[2rem] lg:px-[6rem]">
-        <h2 class="font-extrabold text-lg text-center text-slate-700 pb-[2rem]">Experience</h2>
-        <h3 class=" text-teal-600 font-bold text-[1rem] pb-[1rem]">@ Codeside Academy >>>></h3>
-        <ul class=" list-disc pb-[3rem] px-[1rem] text-slate-700">
-            <li>Collaborated with senior developers to create and maintain web applications using HTML, CSS, and JavaScript</li>
-            <li>Assisted with the design and implementation of user-friendly and responsive interfaces, utilizing popular front-end frameworks such as SvelteKit and TailwindCSS</li>
-            <li>Conducted careful testing to ensure cross-browser compatibility and optimal performance</li>
-            <li>Contributed to team code reviews and actively sought out feedback to improve technical skills</li>
-            <li>Actively participated in daily stand-up meetings and sprint planning sessions</li>
-        </ul>
-       
         <h3 class=" font-extrabold text-lg text-center text-slate-700 pb-[2rem]">Skills</h3>
         <div class="flex gap-[2rem] flex-col  font-serif px-[4rem] text-slate-800 md:flex-row md:px-[0] md:grid-2 md:grid md:grid-cols-2 lg:grid-cols-3">
             <div class=" shadow-xl flex flex-col items-center justify-center ] p-[1.5rem] rounded-lg gap-[.5rem]">
@@ -181,6 +172,18 @@
                 <p class=" text-teal-500 text-xl font-medium">Experience</p>
             </div>
         </div>
+
+        <h2 class="font-extrabold text-lg text-center text-slate-700 pb-[2rem] pt-[3rem]">Experience</h2>
+        <h3 class=" text-teal-600 font-bold text-[1rem] pb-[1rem]">@ Codeside Academy >>>></h3>
+        <ul class=" list-disc px-[1rem] text-slate-700">
+            <li>Collaborated with senior developers to create and maintain web applications using HTML, CSS, and JavaScript</li>
+            <li>Assisted with the design and implementation of user-friendly and responsive interfaces, utilizing popular front-end frameworks such as SvelteKit and TailwindCSS</li>
+            <li>Conducted careful testing to ensure cross-browser compatibility and optimal performance</li>
+            <li>Contributed to team code reviews and actively sought out feedback to improve technical skills</li>
+            <li>Actively participated in daily stand-up meetings and sprint planning sessions</li>
+        </ul>
+       
+        
     </section>
 
 
